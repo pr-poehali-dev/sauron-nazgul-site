@@ -1,7 +1,7 @@
 export const SAURON_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/bucket/3d194b25-bfb0-46fc-a181-9425c6582c0b.png";
-export const NAZGUL_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/files/5f22c9f2-11a1-47ab-9b92-ac4f8a51f306.jpg";
+export const NAZGUL_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/bucket/91f150d0-ef05-466a-b059-3064cb21e4ae.png";
 export const RING_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/files/c8a62a13-9930-4b0b-b1b3-78ac35acf501.jpg";
-export const MORDOR_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/files/b3d8dfeb-82a1-4bb2-9905-e0005c59e594.jpg";
+export const MORDOR_IMG = "https://cdn.poehali.dev/projects/d59fd24a-a991-40dc-9648-daef43edfb48/bucket/78ba69fc-27aa-4425-9fbd-dcd63c66c6bb.png";
 
 export interface GalleryItem {
   id: number;
@@ -40,10 +40,10 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 4,
     img: MORDOR_IMG,
-    title: "Ородруин",
-    subtitle: "Гора Рока",
+    title: "Мордор",
+    subtitle: "Земля Теней",
     category: "локации",
-    desc: "Вулкан в сердце Мордора, единственное место, где Кольцо может быть уничтожено.",
+    desc: "Тёмная земля на востоке Средиземья — царство Саурона, окружённое горными кольцами и пронизанное лавой Ородруина.",
   },
 ];
 
